@@ -1,9 +1,9 @@
 function maior_redirecionar() {
-    window.open("conta.html"); // função para abrir guia do +18
+    window.location.replace("conta.html"); // função para abrir guia do +18
 }
 
 function menor_redirecionar() {
-    window.open("-18.html"); // função para abrir guia do -18
+    window.location.replace("-18.html"); // função para abrir guia do -18
 }
 
 function usuario() {
@@ -11,7 +11,7 @@ function usuario() {
     var senha = document.getElementById("senha").value;
 
     if (login == "1234" && senha == "1234") {
-        window.open("homepage.html");
+        window.location.replace("homepage.html");
     } else {
         alert('Usuário e Senha não registrados. Tente novamente.');
     }
