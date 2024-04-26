@@ -121,7 +121,40 @@ a:hover {
     }
 }
 
+.input-login{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
 
+.input-senha{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-nome{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.input-telefone{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.input-email{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+}
 
 /************************************** fim hero ******************************/
 
