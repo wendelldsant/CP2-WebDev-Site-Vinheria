@@ -23,22 +23,52 @@
             <nav>
                 <ul>
                     <li><a href="conta.html">Conta</a></li>
-                    <li><a href="carrinho.html">Carrinho</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </header>
 
-        <section class="hero">
-            <h2>Vinhos Disponíveis: </h2>
-            <div class="opcoesvinhos">
-                <li><a href=""><img src="" alt="Vinho1">Vinho 1</a></li>
-                <li><a href=""><img src="" alt="Vinho2">Vinho 2</a></li>
-                <li><a href=""><img src="" alt="Vinho3">Vinho 3</a></li>
-                <li><a href=""><img src="" alt="Vinho4">Vinho 4</a></li>
+        <section class="wines" id="wines">
+            <h2>Vinhos:</h2>
+            <div class="wines-list">
+                    <div class="wines-item">
+                        <button id="btnVinho1" onclick="CalcularVinho(100)">
+                        <img src="./images/garrafas/vinho1.png.jpg" alt="Imagem vinho Chardonnay">
+                        <h3>Chardonnay</h3>
+                        <p>R$100,00</p>
+                    </button>
+                </div>
+    
+                <div class="wines-item">
+                    <button id="btnVinho2" onclick="CalcularVinho(150)">
+                        <img src="./images/garrafas/pexels-brettjordan-2308939.jpg" alt="Imagem vinho Chardonnay">
+                        <h3>Lafit Crystal</h3>
+                        <p>R$150,00</p>
+                    </button>
+                </div>
+
+                <div class="wines-item">
+                    <button id="btnVinho3" onclick="CalcularVinho(200)">
+                        <img src="./images/garrafas/pexels-kenneth-1469328-2912108.jpg" alt="Imagem vinho Chardonnay">
+                        <h3>Chatteau China</h3>
+                        <p>R$200,00</p>
+                    </button>
+                </div>
             </div>
         </section>
-
+        <div class="box-final">
+            <ul>
+                <h3>Insira seu cupom de desconto:</h3>
+                <input type="text" id="cupom" placeholder="Cupom">
+                <button id="btnCupom" onclick="CalcularVinho()">Aplicar</button>
+                <p id="cupomAplicado"></p>
+            </ul>
+            <ul>
+                <h3>Carrinho:</h3>
+                <p id="resultado">Chardonnay = R$0,00<br>Lafit Crystal = R$0,00<br>Chatteau China = R$ = 0,00<br>------------------------------<br>Valor total = R$ = 0,00</p>
+            </ul>
+        </div>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
