@@ -55,8 +55,6 @@ a:hover {
     color: var(--color-light);
     font-size: 4vmin;  /*5% do menor viewport */
 
-
-
 }
 
 .header-page ul {
@@ -67,7 +65,7 @@ a:hover {
 /**************************** fim .header-page ******************************************/
 /************************************ hero ************************************/
 .hero{
-    width: 100%;    
+    width: 100%;
     height: calc(100vh - 100px); /*calculo do restante da pagina tirando o header para n ter barra */
     /* background-color: aqua; */
     display: flex; /*permite a centralização*/
@@ -91,7 +89,7 @@ a:hover {
 
 }
 .mensagem_menor_idade{
-    width: 100%;    
+    width: 100%;
     height: calc(100vh - 100px); /*calculo do restante da pagina tirando o header para n ter barra */
     /* background-color: aqua; */
     display: flex; /*permite a centralização*/
@@ -126,3 +124,60 @@ a:hover {
 
 
 /************************************** fim hero ******************************/
+
+.wines {
+    width: 80%;
+    min-height: calc(100vh - 200px);
+    margin: 40px auto;
+
+    & h2 {
+        margin: 30px 0;
+        color: var(--color-light);
+    }
+}
+
+.wines-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wines-item {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    box-shadow: 1px 1px 30px #ccc;
+    transition: scale .7s;
+    background-color: var(--color-light);
+
+    & img {
+        width: 30%;
+    }
+}
+
+.wines-item:hover {
+    scale: 1.1;
+}
+
+.box-final {
+    height: 30vh;
+    background-color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & ul {
+    border-radius: 0 15px;
+
+    & h2 {
+        color: var(--color-pink);
+    }
+    }
+}
