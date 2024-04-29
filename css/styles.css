@@ -166,7 +166,7 @@ a:hover {
 
 
 }
-.wines h2 {
+.wines h2 { 
     margin: 30px 0;
     color: var(--color-light);
 }
@@ -242,7 +242,14 @@ a:hover {
     
 
 }
+.vinhos-descrição p{
+    text-align: center;
+    justify-content: center;
+    text-wrap: balance;
+    line-height: 1.7;
+}
+
 .vinhos-descrição img {
-    width: 300px;
+    width: 200px;
     padding: 60px 0 ;
 }
