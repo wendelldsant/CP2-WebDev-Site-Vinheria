@@ -160,13 +160,14 @@ a:hover {
 
 .wines {
     width: 80%;
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 500px);
     margin: 40px auto;
 
-    & h2 {
-        margin: 30px 0;
-        color: var(--color-light);
-    }
+
+}
+.wines h2 {
+    margin: 30px 0;
+    color: var(--color-light);
 }
 
 .wines-list {
@@ -205,19 +206,22 @@ a:hover {
 }
 
 .box-final {
-    height: 30vh;
+    height: 20vh;
+    width: 30%;
     background-color: var(--color-light);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: auto;
+    margin: 0px 1500px;
 
-    & ul {
+}
+.box-final ul {
     border-radius: 0 15px;
-
-    & h2 {
-        color: var(--color-pink);
+    color: var(--color-pink);
     }
-    }
+.box-final h3{
+    color: var(--color-pink);
 }
 
 .vinhos-descrição{
