@@ -45,14 +45,17 @@ function CalcularVinho(preco) {
         case valorVinho1:
             quantidadeVinho1++;
             valorTotalVinho1 = quantidadeVinho1 * valorVinho1
+            alert('Vinho adicionado ao carrinho.');
             break;
         case valorVinho2:
             quantidadeVinho2++;
             valorTotalVinho2 = quantidadeVinho2 * valorVinho2
+            alert('Vinho adicionado ao carrinho.');
             break;
         case valorVinho3:
             quantidadeVinho3++;
             valorTotalVinho3 = quantidadeVinho3 * valorVinho3
+            alert('Vinho adicionado ao carrinho.');
             break;
         default:
             var cupom = document.getElementById("cupom").value;

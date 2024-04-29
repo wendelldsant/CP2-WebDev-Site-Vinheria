@@ -162,6 +162,11 @@ a:hover {
     }
 }
 
+.detalhes-vinho {
+    color: #000000;
+    padding: 10px 0 20px 0
+}
+
 .wines-item:hover {
     scale: 1.1;
 }
@@ -179,5 +184,23 @@ a:hover {
     & h2 {
         color: var(--color-pink);
     }
+    }
+}
+
+.vinhos-descrição{
+    width: 100%;
+    height: 25px; /*calculo do restante da pagina tirando o header para n ter barra */
+    /* background-color: aqua; */
+    display: flex; /*permite a centralização*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-light);
+    text-align: center;
+    padding: 300px 0 0 0 ;
+    
+    & img {
+        width: 300px;
+        padding: 60px 0 ;
     }
 }
