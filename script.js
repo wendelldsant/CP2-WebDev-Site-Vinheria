@@ -70,7 +70,3 @@ function CalcularVinho(preco) {
 
     resultado.innerText = `${quantidadeVinho1} Chardonnay = R$${valorTotalVinho1},00\n${quantidadeVinho2} Lafit Crystal = R$${valorTotalVinho2},00\n${quantidadeVinho3} Chatteau China = R$${valorTotalVinho3},00\n-----------------------------\nValor total = R$${valorTotal},00`
 }
-
-function index_redirecionar(){
-    window.location.replace("index.html");   
-}
