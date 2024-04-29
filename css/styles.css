@@ -42,7 +42,7 @@ a:hover {
 }
 
 .header-page {
-    background-color: var(--color-pink);
+    /* background-color: var(--color-pink); */
     width: 100%;
     height: 100px;
     padding: 0 50px;
