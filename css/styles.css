@@ -191,11 +191,11 @@ a:hover {
     transition: scale .7s;
     background-color: var(--color-light);
 
-    & img {
-        width: 30%;
-    }
-}
 
+}
+.wines-item img {
+    width: 30%;
+}
 .detalhes-vinho {
     color: #000000;
     padding: 10px 0 20px 0
