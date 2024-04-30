@@ -18,7 +18,17 @@ function usuario() {
 }
 
 function formulario(){
-    alert("Mensagem enviada com sucesso!")   
+    var nome = document.getElementById("nome").value;
+    var telefone = document.getElementById("telefone").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    if (nome === '' || telefone ==='' || email === '' || message ===''){
+        alert("Complete todos os campos!");
+    }
+    else{
+        alert("Mensagem enviada com sucesso!") ;  
+    }
+    
 }
 
 var quantidadeVinho1 = 0
